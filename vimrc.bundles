@@ -1,0 +1,11 @@
+filetype off
+set rtp+=~/myvim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'majutsushi/tagbar'
+map <leader>tt :TagbarToggle<CR>
+
+Plugin 'scrooloose/nerdtree'
+map <leader>tr :NERDTreeToggle<CR>
+
+call vundle#end()
